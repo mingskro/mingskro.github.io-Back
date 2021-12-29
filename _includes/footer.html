@@ -9,7 +9,9 @@
         {% if link.label and link.url %}
           <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
         {% endif %}
-            <!-- ... -->
+      {% endfor %}
+    {% endif %} 
+    <!-- ... -->
 
 {% if site.search == true %}
 <button class="search__toggle" type="button">
@@ -30,8 +32,6 @@
 </button>
 
 <!-- ... -->
-      {% endfor %}
-    {% endif %} 
   </ul> 
 </div>
 
