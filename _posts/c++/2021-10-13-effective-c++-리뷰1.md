@@ -9,7 +9,7 @@ tags:
   - C++
   - Effective C++
 categories:
-  - C++
+  - 
 ---
 
 ## 1장. C++에 왔으면 C++의 법에 따릅시다
