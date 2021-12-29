@@ -1,11 +1,12 @@
 # main links
 main:
-  - title: "Series"
-    url: series
-  - title: "Categories"
-    url: categories
-  - title: "About"
-    url: about
+  - title: 정보
+    url: /category/information/
+  - title: 리뷰
+    url: /category/review/
+  - title: pc
+    url: /category/pc/
+    
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
@@ -16,10 +17,33 @@ main:
   # - title: "ToDo"
   #  url: todo
 
-series:
-  - title: 시리즈
-    children: 
-      - title: 블로그 운영
-        url: /series/blog/
-      - title: Effective C++ 리뷰
-        url: /series/effective_cpp/
+default:
+  - title: Series
+    children:
+    - title: "- 정보"
+      url: /category/information/
+    - title: "- 리뷰"
+      url: /category/review/
+    - title: "- pc"
+      url: /category/pc/
+
+omv4_nas:
+  - title: pc
+    url: /category/pc/
+    children:
+      - title: ""
+        url: 
+
+docker_nas:
+  - title: 리뷰
+    url: /category/review/
+    children:
+      - title: ""
+        url: 
+
+omv6_nas:
+  - title: 정보
+    url: /category/information/
+    children:
+      - title: ""
+        url: 
