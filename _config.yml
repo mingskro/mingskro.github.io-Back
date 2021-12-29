@@ -20,11 +20,11 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "minha"
+title                    : "밍의 일상기"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "minha"
-description              : "이거 저거 적어두는 개발 노트"
+subtitle                 : "공사중" # site tagline that appears below site title in masthead
+name                     : "밍의 일상기"
+description              : "setup"
 url                      : "https://mingskro.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mingskro.github.io"
@@ -34,9 +34,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : utterances # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" utterances # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "etch-cure-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "gumings-kro-kr" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -100,11 +100,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "minha"
+  name             : "구밍스"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
-  location         : "South Korea"
-  email            : "etchcure@gmail.com"
+ # location         : "South Korea"
+  email            : "rlaalsdud39@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -118,8 +118,8 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+ #   - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
       url: "https://github.com/etch-cure"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -134,9 +134,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/etch-cure"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/etch-cure"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
