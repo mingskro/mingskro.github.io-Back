@@ -25,9 +25,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "minha"
 description              : "이거 저거 적어두는 개발 노트"
-url                      : "https://etch-cure.github.io"
+url                      : "https://mingskro.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "etch-cure/etch-cure.github.io"
+repository               : "mingskro.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
